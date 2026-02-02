@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build:playground",
+  "outputDirectory": "playground/dist",
+  "installCommand": "npm install",
+  "framework": null
+}

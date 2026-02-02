@@ -1,0 +1,89 @@
+{
+  "name": "selectra-react",
+  "version": "0.0.1",
+  "description": "A powerful, searchable multi-select dropdown component with tag support for React",
+  "author": "Sayed Abdul Karim",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=playground",
+    "build": "tsup",
+    "build:playground": "npm run build --workspace=playground",
+    "preview": "npm run preview --workspace=playground",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint src --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jsdom": "^24.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vitest": "^1.3.1"
+  },
+  "keywords": [
+    "react",
+    "select",
+    "multiselect",
+    "dropdown",
+    "tags",
+    "chips",
+    "searchable",
+    "combobox",
+    "autocomplete",
+    "selectra"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saykarim/selectra-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saykarim/selectra-react/issues"
+  },
+  "homepage": "https://github.com/saykarim/selectra-react#readme",
+  "workspaces": [
+    "playground"
+  ]
+}

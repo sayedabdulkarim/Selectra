@@ -1,0 +1,26 @@
+# Source
+src
+playground
+
+# Config
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.eslintrc.cjs
+
+# Dev
+.github
+.vscode
+.idea
+
+# Test
+coverage
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Misc
+.gitignore
+.DS_Store
+*.log
