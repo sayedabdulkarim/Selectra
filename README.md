@@ -10,7 +10,7 @@ A powerful, searchable multi-select dropdown component with tag support for Reac
 
 ## Demo
 
-Check out the live playground: **[Coming Soon]**
+Check out the live playground: **[https://selectra-playground-production.up.railway.app/](https://selectra-playground-production.up.railway.app/)**
 
 ## Features
 
