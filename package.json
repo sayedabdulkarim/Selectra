@@ -1,6 +1,6 @@
 {
   "name": "selectra-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A powerful, searchable multi-select dropdown component with tag support for React",
   "author": "Sayed Abdul Karim",
   "license": "MIT",
