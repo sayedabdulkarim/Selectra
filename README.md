@@ -4,9 +4,9 @@ A powerful, searchable multi-select dropdown component with tag support for Reac
 
 **Created by [Sayed Abdul Karim](https://github.com/saykarim)**
 
-[![npm version](https://img.shields.io/npm/v/selectra-react.svg)](https://www.npmjs.com/package/selectra-react)
-[![npm downloads](https://img.shields.io/npm/dm/selectra-react.svg)](https://www.npmjs.com/package/selectra-react)
-[![license](https://img.shields.io/npm/l/selectra-react.svg)](https://github.com/saykarim/selectra-react/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/selectra-react?style=flat-square)](https://www.npmjs.com/package/selectra-react)
+[![npm downloads](https://img.shields.io/npm/dm/selectra-react?style=flat-square)](https://www.npmjs.com/package/selectra-react)
+[![license](https://img.shields.io/npm/l/selectra-react?style=flat-square)](https://github.com/saykarim/selectra-react/blob/main/LICENSE)
 
 ## Demo
 

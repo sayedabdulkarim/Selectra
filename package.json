@@ -86,7 +86,7 @@
   "bugs": {
     "url": "https://github.com/saykarim/selectra-react/issues"
   },
-  "homepage": "https://github.com/saykarim/selectra-react#readme",
+  "homepage": "https://selectra-playground-production.up.railway.app/",
   "workspaces": [
     "playground"
   ]
